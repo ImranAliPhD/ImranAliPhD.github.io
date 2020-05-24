@@ -29,3 +29,12 @@ This dataset was chosen to demonstrate working with raw data. It is not a part o
 We will download three files, the `county_facts.csv`, `primary_results.csv` and `county_facts_dictionary.csv`. The last file just provides names of columns of `county_facts.csv`, since they are quite long. The `primary_results.csv` file is in a format not very useful to us and we will manipulate to make it a column of `county_facts.csv` dataset.
 
 Let us import pandas and load our files.
+
+```python
+import pandas as pd
+county_facts = pd.read_csv("county_facts.csv")
+columns = pd.read_csv("county_facts_dictionary.csv")
+results = pd.read_csv("primary_results.csv")
+```
+
+
