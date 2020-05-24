@@ -10,6 +10,8 @@ mathjax: "true"
 
 # H1 Heading
 
+First edit. Hello galaxy!
+
 ## H2 Heading
 
 ### H3 Heading
