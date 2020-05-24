@@ -43,4 +43,4 @@ In its raw form, this set comprises of multiple files with required information 
 
 <h3>2.1 Fixing `NaN` Values</h3>
 
-We start by checking the number of missing entries in the two datasets (third files provides list of columns). Here is the subset of county_facts dataframe which has NaN in any row.
+We start by checking the number of missing entries in the two datasets (third files provides list of columns). Here is the subset of `county_facts` dataframe which has `NaN` in any row.
