@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Imran Ali"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Analyst, Data Scientist, Machine Learning Engineer"
+  bio              : "Data Scientist, Machine Learning Engineer"
   location         : "Sydney, Australia"
   email            :
   links:
