@@ -37,4 +37,10 @@ columns = pd.read_csv("county_facts_dictionary.csv")
 results = pd.read_csv("primary_results.csv")
 ```
 
+<h2>2. Cleaning and Manipulation of Dataset</h2>
 
+In its raw form, this set comprises of multiple files with required information scattered around. We will perform a series of steps for data cleansing and preparation steps.
+
+<h3>2.1 Fixing <code>NaN</code> Values</h3>
+
+We start by checking the number of missing entries in the two datasets (third files provides list of columns). Here is the subset of county_facts dataframe which has NaN in any row.
