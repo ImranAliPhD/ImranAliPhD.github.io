@@ -56,7 +56,7 @@ Here is an image:
 <img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg" alt="Linearly Separable Data">
 
 Here is another image using Kramdown:
-![alt]({{ site.url }}{{ site.baseurl }}/images/percept.jpg)
+![alt]({{ site.url }}{{ site.baseurl }}/images/perceptron/percept.jpg)
 
 Here is some math equation:
 
