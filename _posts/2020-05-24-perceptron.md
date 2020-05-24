@@ -53,10 +53,10 @@ Here is some inline code `x+y`.
 
 Here is an image:
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/perceptron/linsep.jpg" alt="Linearly Separable Data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg" alt="Linearly Separable Data">
 
 Here is another image using Kramdown:
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/percept.jpg)
+![alt]({{ site.url }}{{ site.baseurl }}/images/percept.jpg)
 
 Here is some math equation:
 
