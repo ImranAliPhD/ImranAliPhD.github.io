@@ -58,6 +58,10 @@ print(len(county_facts_nan.loc[county_facts_nan[
                                'state_abbreviation']
                                .isnull()]))
 ```
+```
+52
+52
+```
 
 The 50 <code>NAN</code> entries are for 50 US states, one <code>NAN</code> is for US national and one <code>NAN</code> is due to faulty data for *second* row of <code>county_facts</code> dataset where <code>State</code> is <code>NAN</code>, when it should be <code>AL</code>, for Alabama. We will fix that row and then drop the remaining 51 <code>NAN</code> rows because we are concenred with FIPS / county results, not states or national US results.
 
@@ -65,3 +69,10 @@ The 50 <code>NAN</code> entries are for 50 US states, one <code>NAN</code> is fo
 county_facts.loc[[1],'state_abbreviation'] = "AL"
 county_facts = county_facts.dropna()
 ```
+
+Let us double check if there are any other missing values.
+
+```python
+county_facts.isnull().values.any()
+```
+
