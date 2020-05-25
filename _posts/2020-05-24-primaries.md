@@ -58,7 +58,7 @@ print(len(county_facts_nan.loc[county_facts_nan[
                                'state_abbreviation']
                                .isnull()]))
 ```
-```
+```ruby
 52
 52
 ```
@@ -74,5 +74,8 @@ Let us double check if there are any other missing values.
 
 ```python
 county_facts.isnull().values.any()
+```
+```ruby
+False
 ```
 
