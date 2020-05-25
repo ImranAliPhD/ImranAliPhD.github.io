@@ -41,6 +41,10 @@ results = pd.read_csv("primary_results.csv")
 
 In its raw form, this set comprises of multiple files with required information scattered around. We will perform a series of steps for data cleansing and preparation steps.
 
-<h3>2.1 Fixing <code>NaN</code> Values</h3>
+<h3>2.1 Fixing Missing Values</h3>
 
 We start by checking the number of missing entries in the two datasets (third files provides list of columns). Here is the subset of `county_facts` dataframe which has `NaN` in any row.
+
+```python
+county_facts_nan = county_facts[county_facts.isnull().any(axis=1)]
+```
