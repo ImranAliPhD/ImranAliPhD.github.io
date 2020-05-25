@@ -46,5 +46,6 @@ In its raw form, this set comprises of multiple files with required information 
 We start by checking the number of missing entries in the two datasets (third files provides list of columns). Here is the subset of `county_facts` dataframe which has `NaN` in any row.
 
 ```python
-county_facts_nan = county_facts[county_facts.isnull().any(axis=1)]
+county_facts_nan = county_facts[county_facts
+                                .isnull().any(axis=1)]
 ```
