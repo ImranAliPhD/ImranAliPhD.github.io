@@ -1,6 +1,3 @@
-_____________
-_____________
-_____________
 ## Let us start with all the credits for theme used in this website.
 
 #### [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
