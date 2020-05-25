@@ -12,3 +12,5 @@ _____________
 
 
 # The Goal of this website:
+
+This website showscases my data science and machine learning projects.
