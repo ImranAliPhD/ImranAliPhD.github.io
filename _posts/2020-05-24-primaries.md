@@ -87,12 +87,12 @@ We also need to check for the <code>NAN</code> in <code>results</code> dataframe
 results_nan = results[results.isnull().any(axis=1)]
 ```
 ```ruby
-	state	state_abbreviation	county	fips	party	candidate	votes	fraction_votes
-14587	New Hampshire	NH	Belknap	NaN	Democrat	Bernie Sanders	5990	0.631857
-14588	New Hampshire	NH	Belknap	NaN	Democrat	Hillary Clinton	3490	0.368143
-14589	New Hampshire	NH	Carroll	NaN	Democrat	Bernie Sanders	5655	0.636466
+state	state_abbreviation	county	  fips	party	       candidate	votes	fraction_votes
+New Hampshire	NH	       Belknap	  NaN	Democrat	Bernie Sanders	5990	0.631857
+New Hampshire	NH	       Belknap	  NaN	Democrat	Hillary Clinton	3490	0.368143
+New Hampshire	NH	       Carroll	  NaN	Democrat	Bernie Sanders	5655	0.636466
 ...	...	...	...	...	...	...	...	...
-14684	New Hampshire	NH	Sullivan	NaN	Republican	John Kasich	1334	0.164997
-14685	New Hampshire	NH	Sullivan	NaN	Republican	Marco Rubio	895	0.110699
-14686	New Hampshire	NH	Sullivan	NaN	Republican	Ted Cruz	951	0.117625
+New Hampshire	NH	       Sullivan	  NaN	Republican	John Kasich	1334	0.164997
+New Hampshire	NH	       Sullivan   NaN	Republican	Marco Rubio	895	0.110699
+New Hampshire	NH	       Sullivan	 NaN	Republican	Ted Cruz	951	0.117625
 ```
