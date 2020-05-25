@@ -49,3 +49,11 @@ We start by checking the number of missing entries in the two datasets (third fi
 county_facts_nan = county_facts[county_facts
                                 .isnull().any(axis=1)]
 ```
+
+It can be easily inspected by printing out <code>county_facts_nan</code> that all the rows with missing values have missing value in column <code>State</code>. This is because, while most rows are reporting data for <code>FIPS</code> code areas, a few rows are for aggregates for States and US national data, and that is where <code>area_name</code> column suffices, so no State is listed (i.e., since this is not a result for FIPS code area, there is no need to say in which State this FIPS code area is located). This can be verified by counting rows of <code>county_facts_nan</code> and rows where <code>State</code> is missing, as done below:
+
+```python
+print(len(county_facts_nan))
+print(len(county_facts_nan.loc[county_facts_nan[
+                               'state_abbreviation'].isnull()]))
+```
