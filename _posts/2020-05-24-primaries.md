@@ -30,6 +30,8 @@ We will download three files, the `county_facts.csv`, `primary_results.csv` and 
 
 Let us import pandas and load our files.
 
+Click [here](primaries.html) to read more.
+
 ```python
 import pandas as pd
 county_facts = pd.read_csv("county_facts.csv")
