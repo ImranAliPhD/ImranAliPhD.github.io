@@ -30,7 +30,9 @@ We will download three files, the `county_facts.csv`, `primary_results.csv` and 
 
 Let us import pandas and load our files.
 
-Click [here](primaries.html) to read more.
+Click [here](primaries.html) to read more.<br>
+
+Click<a href="http://example.com/" target="_blank"> here </a>to read more.
 
 ```python
 import pandas as pd
