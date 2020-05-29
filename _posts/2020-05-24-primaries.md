@@ -75,7 +75,7 @@ Let us double check if there are any other missing values.
 ```python
 county_facts.isnull().values.any()
 ```
-```ruby
+```
 False
 ```
 
@@ -86,7 +86,7 @@ We also need to check for the <code>NAN</code> in <code>results</code> dataframe
 ```python
 results_nan = results[results.isnull().any(axis=1)]
 ```
-```ruby
+```
 state	state_abbreviation	county	  fips	party	       candidate	votes	fraction_votes
 New Hampshire	NH	       Belknap	  NaN	Democrat	Bernie Sanders	5990	0.631857
 New Hampshire	NH	       Belknap	  NaN	Democrat	Hillary Clinton	3490	0.368143
